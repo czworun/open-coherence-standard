@@ -1,0 +1,10 @@
+model_name: ""
+model_version: ""
+evaluation_date: ""
+
+S_structural_transparency: 0.0
+E_computational_proportionality: 0.0
+R_auditability: 0.0
+C_governance_stability: 0.0
+
+OCS_snapshot_score: 0.0
