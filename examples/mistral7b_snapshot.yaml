@@ -1,0 +1,42 @@
+model_name: "Mistral 7B"
+version: "Initial Release"
+evaluation_type: "OCS v0.1 Snapshot"
+evaluation_date: "2026-02-12"
+
+disclaimer: >
+  This evaluation is illustrative and based solely on publicly available documentation.
+  It does not represent an official assessment by the model creators.
+
+S_structural_transparency:
+  score: 0.8
+  rationale: >
+    Architecture and training details are publicly documented.
+    Weights are openly released. Some dataset composition details remain high-level.
+
+E_computational_proportionality:
+  score: 0.75
+  rationale: >
+    Strong benchmark performance relative to parameter size (7B).
+    Training cost not fully disclosed, but considered efficient for performance tier.
+
+R_auditability:
+  score: 0.9
+  rationale: >
+    Open weights available. Community fine-tuning and independent evaluation possible.
+
+C_governance_stability:
+  score: 0.6
+  rationale: >
+    Model card and documentation available.
+    Formal long-term governance and regulatory compliance structures limited compared to large corporate providers.
+
+OCS_formula:
+  description: "(S + E + R) / 3 * C"
+
+OCS_score:
+  value: 0.61
+  interpretation_band: "Operational (0.40 – 0.69)"
+
+notes: >
+  This score reflects a balance between high technical openness
+  and moderate formal governance structures.
