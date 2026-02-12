@@ -1,4 +1,4 @@
-#The Coherence Manifesto
+# The Coherence Manifesto
 
 AI is no longer experimental.
 
